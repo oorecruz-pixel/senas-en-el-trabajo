@@ -9,13 +9,57 @@
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.55}button,a{font:inherit}button{cursor:pointer}.app{background:var(--bg);min-height:100vh}.wrap{width:min(1120px,92%);margin:auto}.topbar{border-bottom:1px solid var(--line);background:var(--surface);position:sticky;top:0;z-index:5}.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:15px 0}.brand{display:flex;align-items:center;gap:10px;font-weight:850;letter-spacing:-.03em}.logo{display:grid;place-items:center;width:42px;height:42px;border-radius:13px;background:#1457d9;color:white;font-size:22px}.navlinks{display:flex;gap:7px;flex-wrap:wrap}.navlinks button{border:0;background:transparent;color:var(--text);padding:9px 12px;border-radius:10px;font-weight:650}.navlinks button.active,.navlinks button:hover{background:var(--blue2);color:var(--blue)}.access-tools{display:flex;gap:6px}.smallbtn{border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:9px;padding:8px 10px}.hero{padding:58px 0 40px;display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:center}.eyebrow{display:inline-block;background:var(--green);padding:6px 11px;border-radius:999px;font-weight:750;font-size:.83rem}.hero h1{font-size:clamp(2.2rem,5vw,4rem);line-height:1.06;letter-spacing:-.05em;margin:18px 0}.hero h1 span{color:var(--blue)}.hero p{font-size:1.08rem;color:var(--muted);max-width:620px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}.primary,.secondary{border-radius:12px;padding:12px 17px;font-weight:750;border:1px solid var(--blue)}.primary{background:#1457d9;color:white}.secondary{background:var(--surface);color:var(--blue)}.hero-art{background:linear-gradient(145deg,#dceaff,#e3f8ef);color:#17315a;border-radius:26px;padding:28px;min-height:300px;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden}.art-top{display:flex;justify-content:space-between;align-items:center;font-size:.9rem;font-weight:750}.hands{display:flex;justify-content:center;gap:16px;margin:20px 0}.hand{width:68px;height:88px;border-radius:23px 23px 18px 18px;background:#1457d9;position:relative;transform:rotate(-7deg);box-shadow:0 12px 20px #17315a25}.hand:before{content:"";position:absolute;width:14px;height:44px;border-radius:12px;background:#1457d9;top:-26px;left:9px;box-shadow:17px -4px 0 #1457d9,34px 0 0 #1457d9,47px 10px 0 #1457d9}.hand.two{background:#10a879;transform:rotate(8deg);margin-top:18px}.hand.two:before{background:#10a879;box-shadow:17px -4px 0 #10a879,34px 0 0 #10a879,47px 10px 0 #10a879}.art-caption{background:#ffffffc9;padding:13px 15px;border-radius:14px;font-weight:700}.section{padding:35px 0 52px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:22px}.section h2{font-size:clamp(1.65rem,3vw,2.3rem);letter-spacing:-.035em;margin:0 0 6px}.section-head p{color:var(--muted);margin:0}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:20px;display:flex;flex-direction:column;gap:10px}.card-icon{width:48px;height:48px;border-radius:14px;background:var(--blue2);display:grid;place-items:center;font-size:24px}.card h3{margin:3px 0;font-size:1.15rem}.card p{color:var(--muted);margin:0}.card button{margin-top:auto;align-self:flex-start}.tag{font-size:.78rem;font-weight:800;color:var(--blue);letter-spacing:.03em;text-transform:uppercase}.learning{display:grid;grid-template-columns:260px 1fr;gap:18px}.sidebar,.lesson-panel{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:18px}.sidebar button{display:block;width:100%;text-align:left;border:0;background:transparent;color:var(--text);padding:12px;border-radius:10px;margin:4px 0}.sidebar button.selected,.sidebar button:hover{background:var(--blue2);color:var(--blue);font-weight:750}.lesson-panel h3{margin:5px 0 10px}.lesson-placeholder{background:var(--blue2);border:1px dashed var(--blue);border-radius:16px;min-height:160px;display:grid;place-items:center;text-align:center;padding:20px;margin:15px 0}.lesson-placeholder strong{display:block;font-size:1.1rem}.lesson-placeholder p{margin:5px 0;color:var(--muted)}.notice{padding:12px 14px;border-radius:12px;background:var(--yellow);font-size:.9rem;margin-top:12px}.quiz{max-width:760px}.question{background:var(--surface);border:1px solid var(--line);padding:22px;border-radius:18px}.answers{display:grid;gap:10px;margin:18px 0}.answer{display:flex;gap:10px;align-items:center;border:1px solid var(--line);padding:12px;border-radius:12px;cursor:pointer}.answer:has(input:checked){border-color:var(--blue);background:var(--blue2)}.feedback{margin-top:12px;font-weight:700}.phrase-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.phrase{background:var(--surface);border:1px solid var(--line);padding:15px;border-radius:14px}.phrase strong{display:block}.phrase span{color:var(--muted);font-size:.92rem}.footer{border-top:1px solid var(--line);padding:24px 0;color:var(--muted);font-size:.9rem}.hidden{display:none!important}.high-contrast{--bg:#000;--surface:#000;--text:#fff;--muted:#fff;--line:#fff;--blue:#ffef00;--blue2:#222;--green:#222;--yellow:#222}.high-contrast .brand span,.high-contrast .hero h1{color:#fff!important}.high-contrast .hero h1 span{color:#ffef00!important}.large-text{font-size:1.12rem}
 .phrase-video{margin-top:12px;padding:12px;border-radius:12px;background:var(--blue2);border:1px dashed var(--blue)}.phrase-video p{margin:0 0 8px;font-size:.9rem;color:var(--text)}.phrase-video a{display:inline-block;color:var(--blue);font-weight:750;text-decoration:underline}.phrase-note{margin:0 0 18px;padding:13px 15px;background:var(--yellow);border-radius:12px}.phrase-video iframe{display:block;width:100%;height:clamp(300px,45vw,480px);min-height:300px;}
 .high-contrast .hero-art{background:#000;color:#fff;border:1px solid #fff}.high-contrast .art-caption{background:#111;color:#fff}.high-contrast .primary{background:#222;color:#fff;border-color:#ffef00}.high-contrast .secondary{color:#fff;border-color:#ffef00}.high-contrast a{color:#ffef00!important}.high-contrast .logo{background:#222;color:#fff;border:1px solid #fff}.high-contrast .navlinks button.active,.high-contrast .navlinks button:hover,.high-contrast .sidebar button.selected,.high-contrast .sidebar button:hover{color:#fff;background:#222}
-.high-contrast .section h2,.high-contrast .section h3,.high-contrast .lesson-panel h3,.high-contrast .lesson-panel p,.high-contrast .section p,.high-contrast .card h3,.high-contrast .card p,.high-contrast .sidebar button,.high-contrast .phrase strong,.high-contrast .phrase span,.high-contrast .question h3,.high-contrast .answer,.high-contrast .feedback,.high-contrast .tag{color:#fff!important}
-.high-contrast .section h1,.high-contrast .section h2,.high-contrast .section h3,.high-contrast .section h4,.high-contrast .section p,.high-contrast .section li,.high-contrast .section label,.high-contrast .section small,.high-contrast .section strong,.high-contrast .section span,.high-contrast .section div,.high-contrast .section input,.high-contrast .section textarea,.high-contrast .section select,.high-contrast .section option,.high-contrast .lesson-panel *,.high-contrast .sidebar *,.high-contrast .about *,.high-contrast .team *{color:#fff!important}
-.high-contrast .hero h1,.high-contrast .hero h1 span,.high-contrast .hero .eyebrow,.high-contrast .hero .badge{color:#fff!important}
 .navlinks{flex-wrap:nowrap;white-space:nowrap}.navlinks button{flex:0 0 auto;padding:9px 10px}.high-contrast .navlinks button{color:#ffef00}.high-contrast .navlinks button.active,.high-contrast .navlinks button:hover{color:#fff;background:#222}
 #page-quienes .section-head + div > div:first-child{display:none}
 .notice{display:none!important}
-@media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:38px}.hero-art{min-height:250px}.cards{grid-template-columns:1fr}.learning{grid-template-columns:1fr}.sidebar{display:flex;overflow-x:auto;gap:5px}.sidebar button{min-width:max-content}.nav{flex-wrap:wrap}.navlinks{order:3;width:100%;overflow-x:auto;flex-wrap:nowrap}.phrase-grid{grid-template-columns:1fr}}
+@media(max-width:800px){.lesson-video-grid{grid-template-columns:1fr!important}.hero{grid-template-columns:1fr;padding-top:38px}.hero-art{min-height:250px}.cards{grid-template-columns:1fr}.learning{grid-template-columns:1fr}.sidebar{display:flex;overflow-x:auto;gap:5px}.sidebar button{min-width:max-content}.nav{flex-wrap:wrap}.navlinks{order:3;width:100%;overflow-x:auto;flex-wrap:nowrap}.phrase-grid{grid-template-columns:1fr}}
+
+/* ÚNICO AJUSTE: colores del modo de contraste; conservar estructura y contenido. */
+#app.high-contrast,
+#app.high-contrast p,
+#app.high-contrast h1,
+#app.high-contrast h2,
+#app.high-contrast h3,
+#app.high-contrast h4,
+#app.high-contrast li,
+#app.high-contrast label,
+#app.high-contrast small,
+#app.high-contrast strong,
+#app.high-contrast span,
+#app.high-contrast div,
+#app.high-contrast td,
+#app.high-contrast th,
+#app.high-contrast button,
+#app.high-contrast input,
+#app.high-contrast textarea,
+#app.high-contrast select {
+  color: #ffffff;
+}
+#app.high-contrast a,
+#app.high-contrast .tag,
+#app.high-contrast .navlinks button {
+  color: #ffef00;
+}
+#app.high-contrast .navlinks button.active,
+#app.high-contrast .navlinks button:hover {
+  color: #ffffff;
+}
+#app.high-contrast .card,
+#app.high-contrast .sidebar,
+#app.high-contrast .lesson-panel,
+#app.high-contrast .phrase,
+#app.high-contrast .question,
+#app.high-contrast .answer,
+#app.high-contrast input,
+#app.high-contrast textarea,
+#app.high-contrast select,
+#app.high-contrast .smallbtn,
+#app.high-contrast .primary,
+#app.high-contrast .secondary,
+#app.high-contrast .phrase-video {
+  border-color: #ffffff;
+}
+
 </style>
 </head>
 <body>
@@ -28,7 +72,7 @@
 <section id="page-aprender" class="page hidden"><div class="wrap section"><div class="section-head"><div><h2>Aprender señas</h2><p>Elige un tema para explorar el vocabulario propuesto.</p></div></div><div class="learning"><aside class="sidebar" aria-label="Temas de aprendizaje"><button class="selected" data-lesson="seguridad">🦺 Seguridad laboral</button><button data-lesson="herramientas">🛠️ Herramientas y tareas</button><button data-lesson="comunicacion">💬 Comunicación diaria</button><button data-lesson="emergencias">🚨 Emergencias</button></aside><div class="lesson-panel" id="lessonContent"><span class="tag">MÓDULO 01</span><h3>Seguridad laboral</h3><p>Palabras y mensajes esenciales para hablar de prevención y protección en el trabajo.</p><div class="lesson-placeholder"><div><div style="font-size:2rem">▶️</div><strong>Espacio para video en LSP</strong><p>Agregar aquí un video validado con la seña y su explicación.</p></div></div><div class="cards" style="grid-template-columns:repeat(2,1fr)"><div class="phrase"><strong>Equipo de protección</strong><span>Vocabulario de EPP y uso seguro.</span></div><div class="phrase"><strong>Riesgo</strong><span>Reconocer y comunicar situaciones peligrosas.</span></div></div></div></div></div></section>
 <section id="page-practicar" class="page hidden"><div class="wrap section"><div class="section-head"><div><h2>Practicar</h2><p>Responde estas 5 preguntas sobre comunicación inclusiva, LSP y seguridad en el trabajo.</p></div></div><div class="quiz"><div class="question" data-question="1"><span class="tag">PREGUNTA 1 DE 5</span><h3>Si necesitas comunicar una instrucción de seguridad a una persona sorda, ¿qué es lo más recomendable?</h3><div class="answers"><label class="answer"><input type="radio" name="quiz1" value="a"> Hablar más fuerte sin cambiar la forma de comunicar.</label><label class="answer"><input type="radio" name="quiz1" value="b"> Usar recursos visuales accesibles y comprobar que la persona comprenda.</label><label class="answer"><input type="radio" name="quiz1" value="c"> Evitar darle la instrucción.</label></div><div class="feedback" aria-live="polite"></div></div><div class="question" data-question="2" style="margin-top:14px"><span class="tag">PREGUNTA 2 DE 5</span><h3>¿Para qué sirve aprender vocabulario de Lengua de Señas Peruana (LSP) relacionado con el trabajo?</h3><div class="answers"><label class="answer"><input type="radio" name="quiz2" value="a"> Para reemplazar todas las medidas de seguridad.</label><label class="answer"><input type="radio" name="quiz2" value="b"> Para evitar trabajar en equipo.</label><label class="answer"><input type="radio" name="quiz2" value="c"> Para facilitar la comunicación con compañeros sordos.</label></div><div class="feedback" aria-live="polite"></div></div><div class="question" data-question="3" style="margin-top:14px"><span class="tag">PREGUNTA 3 DE 5</span><h3>Si un compañero no comprende una instrucción, ¿qué deberías hacer?</h3><div class="answers"><label class="answer"><input type="radio" name="quiz3" value="a"> Repetirla de forma accesible, usar apoyos visuales y confirmar que se entendió.</label><label class="answer"><input type="radio" name="quiz3" value="b"> Continuar sin comprobar la comprensión.</label><label class="answer"><input type="radio" name="quiz3" value="c"> Culpar al compañero por no entender.</label></div><div class="feedback" aria-live="polite"></div></div><div class="question" data-question="4" style="margin-top:14px"><span class="tag">PREGUNTA 4 DE 5</span><h3>Ante una emergencia en la empresa, ¿qué es importante para que la información llegue a una persona sorda?</h3><div class="answers"><label class="answer"><input type="radio" name="quiz4" value="a"> Dar avisos solo por altavoz.</label><label class="answer"><input type="radio" name="quiz4" value="b"> Usar alertas visuales accesibles y seguir el protocolo de emergencia.</label><label class="answer"><input type="radio" name="quiz4" value="c"> Esperar a que otra persona le cuente después.</label></div><div class="feedback" aria-live="polite"></div></div><div class="question" data-question="5" style="margin-top:14px"><span class="tag">PREGUNTA 5 DE 5</span><h3>¿Cuál es una práctica de comunicación respetuosa con una persona sorda?</h3><div class="answers"><label class="answer"><input type="radio" name="quiz5" value="a"> Hablar siempre con su compañero en vez de dirigirse a ella.</label><label class="answer"><input type="radio" name="quiz5" value="b"> Suponer que todas las personas sordas se comunican igual.</label><label class="answer"><input type="radio" name="quiz5" value="c"> Dirigirse directamente a la persona y buscar una forma de comunicación comprensible para ella.</label></div><div class="feedback" aria-live="polite"></div></div><div style="margin-top:18px"><button class="primary" id="checkAnswer">Evaluar mis respuestas</button><button class="secondary" id="resetQuiz" style="margin-left:8px">Volver a intentar</button><div id="quizFeedback" class="feedback" aria-live="polite"></div></div></div></div></section>
 <section id="page-frases" class="page hidden"><div class="wrap section"><div class="section-head"><div><h2>Frases útiles en el trabajo</h2><p>Mensajes para priorizar la seguridad y el trabajo en equipo.</p></div></div><p class="phrase-note"><strong>Videos de referencia LSP:</strong> los enlaces llevan a diccionarios visuales para buscar las palabras clave en señas peruanas. No hemos encontrado videos verificados de las seis frases completas; la gramática de la LSP no consiste en traducir palabra por palabra. Valida las frases con una persona sorda usuaria de LSP o un especialista antes de usarlas en una capacitación.</p><div class="phrase-grid"><div class="phrase"><strong>¿Necesitas ayuda?</strong><span>Ofrecer apoyo a un compañero.</span><div class="phrase-video"><p>🎬 Busca las señas de conceptos como “ayuda” y “necesitar”.</p><a href="https://diccionariolsp.pucp.edu.pe/" target="_blank" rel="noopener noreferrer">Buscar en diccionario LSP de la PUCP ↗</a></div></div><div class="phrase"><strong>Atención, por favor</strong><span>Solicitar que el equipo preste atención.</span><div class="phrase-video"><p>🎬 Busca los conceptos “atención” y “por favor”.</p><a href="https://lspedia.site/" target="_blank" rel="noopener noreferrer">Buscar videos en LSPedia ↗</a></div></div><div class="phrase"><strong>Zona de peligro</strong><span>Advertir que hay un área que requiere cuidado.</span><div class="phrase-video"><p>🎬 Busca los conceptos “peligro” y “zona”.</p><a href="https://diccionariolsp.pucp.edu.pe/" target="_blank" rel="noopener noreferrer">Buscar en diccionario LSP de la PUCP ↗</a></div></div><div class="phrase"><strong>¿Entendiste la instrucción?</strong><span>Confirmar que el mensaje fue comprendido.</span><div class="phrase-video"><p>🎬 Busca los conceptos “entender” e “instrucción”.</p><a href="https://lspedia.site/" target="_blank" rel="noopener noreferrer">Buscar videos en LSPedia ↗</a></div></div><div class="phrase"><strong>Necesito un descanso</strong><span>Comunicar una necesidad personal.</span><div class="phrase-video"><p>🎬 Busca los conceptos “necesitar” y “descanso”.</p><a href="https://diccionariolsp.pucp.edu.pe/" target="_blank" rel="noopener noreferrer">Buscar en diccionario LSP de la PUCP ↗</a></div></div><div class="phrase"><strong>Gracias por ayudarme</strong><span>Fomentar una comunicación respetuosa.</span><div class="phrase-video"><p>🎬 Busca los conceptos “gracias” y “ayuda”.</p><a href="https://lspedia.site/" target="_blank" rel="noopener noreferrer">Buscar videos en LSPedia ↗</a></div></div></div></div></section>
-</main><section id="page-quienes" class="page hidden"><div class="wrap section"><div class="section-head"><div><h2>Quiénes somos</h2><p>Conoce al equipo académico detrás de Señas en el Trabajo.</p></div></div><div style="display:flex;align-items:center;gap:18px;flex-wrap:wrap;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:22px;margin-bottom:22px"><div aria-label="Identificador de la Universidad César Vallejo" style="width:100px;height:100px;flex:0 0 100px;border-radius:18px;background:#1457d9;color:#fff;display:grid;place-items:center;font-size:2rem;font-weight:900;letter-spacing:-.08em;box-shadow:0 8px 20px #1457d925">UCV</div><div><strong style="display:block;font-size:1.2rem">UNIVERSIDAD CÉSAR VALLEJO</strong><span style="color:var(--muted)">Proyecto académico · Grupo 7</span><p style="margin:8px 0 0;color:var(--muted)">Servicio digital de capacitación en Lengua de Señas Peruana para promover la comunicación inclusiva en empresas manufactureras de Lima Norte.</p></div></div><div class="card" style="margin-bottom:22px"><span class="tag">DOCENTE</span><h3 style="margin:0">Mgtr. Gomez Dominguez, Mijail Yosip</h3></div><div class="card"><span class="tag">INTEGRANTES GRUPO 7</span><div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse;min-width:700px;text-align:left"><thead><tr><th style="padding:12px;border-bottom:2px solid var(--line)">Apellidos y nombres</th><th style="padding:12px;border-bottom:2px solid var(--line)">ORCID</th><th style="padding:12px;border-bottom:2px solid var(--line)">Carrera profesional</th></tr></thead><tbody><tr><td style="padding:12px;border-bottom:1px solid var(--line)">Benigno Avalos, Erick Raúl</td><td style="padding:12px;border-bottom:1px solid var(--line)"><a href="https://orcid.org/0009-0001-2298-8174" target="_blank" rel="noopener noreferrer">0009-0001-2298-8174 ↗</a></td><td style="padding:12px;border-bottom:1px solid var(--line)">Ingeniería Mecánica Eléctrica</td></tr><tr><td style="padding:12px;border-bottom:1px solid var(--line)">Facundo Peña, José Abel</td><td style="padding:12px;border-bottom:1px solid var(--line)"><a href="https://orcid.org/0009-0002-2283-384X" target="_blank" rel="noopener noreferrer">0009-0002-2283-384X ↗</a></td><td style="padding:12px;border-bottom:1px solid var(--line)">Ingeniería Industrial</td></tr><tr><td style="padding:12px;border-bottom:1px solid var(--line)">Orellana Cruz, Jesus Orlando</td><td style="padding:12px;border-bottom:1px solid var(--line)"><a href="https://orcid.org/0009-0000-1029-7408" target="_blank" rel="noopener noreferrer">0009-0000-1029-7408 ↗</a></td><td style="padding:12px;border-bottom:1px solid var(--line)">Ingeniería de Sistemas</td></tr><tr><td style="padding:12px;border-bottom:1px solid var(--line)">Quispe Cordova, Kenndy Sonny</td><td style="padding:12px;border-bottom:1px solid var(--line)"><a href="https://orcid.org/0000-0002-6621-5077" target="_blank" rel="noopener noreferrer">0000-0002-6621-5077 ↗</a></td><td style="padding:12px;border-bottom:1px solid var(--line)">Ingeniería Industrial</td></tr><tr><td style="padding:12px;border-bottom:1px solid var(--line)">Quispe Julca, José Jaime</td><td style="padding:12px;border-bottom:1px solid var(--line)"><a href="https://orcid.org/0009-0003-9230-7826" target="_blank" rel="noopener noreferrer">0009-0003-9230-7826 ↗</a></td><td style="padding:12px;border-bottom:1px solid var(--line)">Ingeniería Civil</td></tr><tr><td style="padding:12px;border-bottom:1px solid var(--line)">Sandoval Yucra, Luis Miguel</td><td style="padding:12px;border-bottom:1px solid var(--line)"><a href="https://orcid.org/0009-0002-4335-2738" target="_blank" rel="noopener noreferrer">0009-0002-4335-2738 ↗</a></td><td style="padding:12px;border-bottom:1px solid var(--line)">Ingeniería Industrial</td></tr></tbody></table></div></div></div></section><footer class="footer"><div class="wrap"><strong style="display:block;color:var(--text);font-size:1rem">Servicio Digital – Capacitación en LSP</strong><p>Prototipo académico de accesibilidad y diseño universal · Lima Norte, 2026</p></div></footer></div>
+</main><section id="page-quienes" class="page hidden"><div class="wrap section"><div class="section-head"><div><h2>Quiénes somos</h2><p>Conoce al equipo académico detrás de Señas en el Trabajo.</p></div></div><div style="display:flex;align-items:center;gap:18px;flex-wrap:wrap;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:22px;margin-bottom:22px"><div aria-label="Identificador de la Universidad César Vallejo" style="width:100px;height:100px;flex:0 0 100px;border-radius:18px;background:#1457d9;color:#fff;display:grid;place-items:center;font-size:2rem;font-weight:900;letter-spacing:-.08em;box-shadow:0 8px 20px #1457d925">UCV</div><div><strong style="display:block;font-size:1.2rem">UNIVERSIDAD CÉSAR VALLEJO</strong><span style="color:var(--muted)">Proyecto académico · Grupo 7</span><p style="margin:8px 0 0;color:var(--muted)">Servicio digital de capacitación en Lengua de Señas Peruana para promover la comunicación inclusiva en empresas manufactureras de Lima Norte.</p></div></div><div class="card" style="margin-bottom:22px"><span class="tag">DOCENTE</span><h3 style="margin:0">Mgtr. Gomez Dominguez, Mijail Yosip</h3></div><div class="card"><span class="tag">INTEGRANTES GRUPO 7</span><div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse;min-width:700px;text-align:left"><thead><tr><th style="padding:12px;border-bottom:2px solid var(--line)">Apellidos y nombres</th><th style="padding:12px;border-bottom:2px solid var(--line)">ORCID</th><th style="padding:12px;border-bottom:2px solid var(--line)">Carrera profesional</th></tr></thead><tbody><tr><td style="padding:12px;border-bottom:1px solid var(--line)">Benigno Avalos, Erick Raúl</td><td style="padding:12px;border-bottom:1px solid var(--line)"><a href="https://orcid.org/0009-0001-2298-8174" target="_blank" rel="noopener noreferrer">0009-0001-2298-8174 ↗</a></td><td style="padding:12px;border-bottom:1px solid var(--line)">Ingeniería mecánica eléctrica</td></tr><tr><td style="padding:12px;border-bottom:1px solid var(--line)">Facundo Peña, José Abel</td><td style="padding:12px;border-bottom:1px solid var(--line)"><a href="https://orcid.org/0009-0002-2283-384X" target="_blank" rel="noopener noreferrer">0009-0002-2283-384X ↗</a></td><td style="padding:12px;border-bottom:1px solid var(--line)">Ingeniería Industrial</td></tr><tr><td style="padding:12px;border-bottom:1px solid var(--line)">Orellana Cruz, Jesus Orlando</td><td style="padding:12px;border-bottom:1px solid var(--line)"><a href="https://orcid.org/0009-0000-1029-7408" target="_blank" rel="noopener noreferrer">0009-0000-1029-7408 ↗</a></td><td style="padding:12px;border-bottom:1px solid var(--line)">Ingeniería de Sistemas</td></tr><tr><td style="padding:12px;border-bottom:1px solid var(--line)">Quispe Cordova, Kenndy Sonny</td><td style="padding:12px;border-bottom:1px solid var(--line)"><a href="https://orcid.org/0000-0002-6621-5077" target="_blank" rel="noopener noreferrer">0000-0002-6621-5077 ↗</a></td><td style="padding:12px;border-bottom:1px solid var(--line)">Ingeniería Industrial</td></tr><tr><td style="padding:12px;border-bottom:1px solid var(--line)">Quispe Julca, José Jaime</td><td style="padding:12px;border-bottom:1px solid var(--line)"><a href="https://orcid.org/0009-0003-9230-7826" target="_blank" rel="noopener noreferrer">0009-0003-9230-7826 ↗</a></td><td style="padding:12px;border-bottom:1px solid var(--line)">Ingeniería Civil</td></tr><tr><td style="padding:12px;border-bottom:1px solid var(--line)">Sandoval Yucra, Luis Miguel</td><td style="padding:12px;border-bottom:1px solid var(--line)"><a href="https://orcid.org/0009-0002-4335-2738" target="_blank" rel="noopener noreferrer">0009-0002-4335-2738 ↗</a></td><td style="padding:12px;border-bottom:1px solid var(--line)">Ingeniería Industrial</td></tr></tbody></table></div></div></div></section><footer class="footer"><div class="wrap"><strong style="display:block;color:var(--text);font-size:1rem">Servicio Digital – Capacitación en LSP</strong><p>Prototipo académico de accesibilidad y diseño universal · Lima Norte, 2026</p></div></footer></div>
 <script>
 const pages=[...document.querySelectorAll('.page')];
 function showPage(name){pages.forEach(p=>p.classList.toggle('hidden',p.id!=='page-'+name));document.querySelectorAll('[data-page]').forEach(b=>b.classList.toggle('active',b.dataset.page===name));window.scrollTo({top:0,behavior:'smooth'});}
@@ -46,26 +90,83 @@ document.getElementById('resetQuiz').addEventListener('click',()=>{document.quer
 // Organización de contenido: vocabulario individual en Aprender señas y mensajes completos en Frases útiles.
 (() => {
   const lessonData = {
-    seguridad: { n: '01', title: 'Seguridad y protección', desc: 'Aprende vocabulario de los elementos que protegen a los trabajadores.', terms: [['Casco', 'Elemento de protección para la cabeza.'], ['Guantes', 'Protección para las manos.']] },
-    herramientas: { n: '02', title: 'Herramientas y materiales', desc: 'Reconoce palabras de herramientas y materiales usados en el trabajo.', terms: [['Martillo', 'Herramienta utilizada para golpear.'], ['Destornillador', 'Herramienta para ajustar tornillos.']] },
-    areas: { n: '03', title: 'Áreas de la fábrica', desc: 'Vocabulario para identificar lugares habituales del entorno laboral.', terms: [['Almacén', 'Lugar donde se guardan materiales.'], ['Oficina', 'Espacio destinado a tareas administrativas.']] },
-    basicos: { n: '04', title: 'Conceptos básicos de LSP', desc: 'Practica vocabulario general que puede servir en distintas situaciones.', terms: [['Números', 'Vocabulario numérico para cantidades y referencias.'], ['Colores', 'Vocabulario para describir objetos y materiales.']] }
+    seguridad: {
+      n: '01', title: 'Seguridad y protección',
+      desc: 'Aprende vocabulario de los equipos de protección personal usados en el trabajo.',
+      terms: [
+        ['Importancia de los EPP', 'Por qué los equipos de protección personal ayudan a reducir riesgos.', '1eAu21RMsou0KNTgH4YG421SYK7l-dj6t'],
+        ['Lentes de seguridad', 'Protección para los ojos durante tareas de riesgo.', '1OUxa4kCm7ExVFJcdW-eRdhhWQsoUYR9v'],
+        ['Guantes', 'Protección para las manos según la tarea.', '1zMWsqqqxDtv2iDyRrSEHm8gUfwd_jWhl']
+      ]
+    },
+    herramientas: {
+      n: '02', title: 'Prevención de Riesgos y Equipos',
+      desc: 'Conoce medidas para controlar riesgos laborales y requisitos relacionados con los equipos de protección.',
+      videos: [
+        {title: 'Jerarquía de controles para el ruido', subtitle: 'Medidas para controlar la exposición al ruido.', id: '1-Nc0xJiiJ5SSjzDTYpGZ4_Y0_qfGuP5-'},
+        {title: 'Requisitos clave de ANSI Z87.1: lentes de seguridad', subtitle: 'Requisitos relacionados con la protección ocular.', id: '1lh6CC8Q-pxJowSNaCPcDJMZPd_1aKngl'}
+      ],
+      terms: []
+    },
+    areas: {
+      n: '03', title: 'Fundamentos de SST',
+      desc: 'Comprende qué significa la SST y conoce la ley que regula la seguridad y salud en el trabajo en Perú.',
+      videos: [
+        {title: '¿Qué es la SST?', subtitle: 'Introducción a la seguridad y salud en el trabajo.', id: '1WYgO7HCcM9L9cbZq4xtk01Fe22IoBhxq'},
+        {title: '¿Cuál es la ley que regula la seguridad y salud en el trabajo en Perú?', subtitle: 'Explicación de la normativa peruana sobre SST.', id: '10savgwGtzykP21a6C43m4yAkjRmyLkVY'}
+      ],
+      terms: []
+    },
+    basicos: {
+      n: '04', title: 'Conceptos básicos',
+      desc: 'Practica el abecedario y vocabulario general en Lengua de Señas Peruana.',
+      terms: [
+        ['Conceptos básicos de LSP', 'Introducción para empezar a aprender la lengua de señas peruana.', '1V64Xf1i3lFmfm3FXJBpUxP1tVh7jXdQy'],
+        ['Números', 'Vocabulario numérico para cantidades y referencias.', '1F3iBe3R9YB-vYIqANYOz5fECB707L1JD'],
+        ['Profesiones', 'Vocabulario relacionado con distintas profesiones.', '1NfhCIhTGJzWGwzqr1dVmwG-Qldd25Kxb']
+      ]
+    }
   };
   const sidebar = document.querySelector('.sidebar');
   const lessonButtons = [
     ['seguridad', '🦺 Seguridad y protección'],
-    ['herramientas', '🛠️ Herramientas y materiales'],
-    ['areas', '🏭 Áreas de la fábrica'],
-    ['basicos', '🔤 Conceptos básicos de LSP']
+    ['herramientas', '🛠️ Prevención de Riesgos y Equipos'],
+    ['areas', '📘 Fundamentos de SST'],
+    ['basicos', '🔤 Conceptos básicos']
   ];
-  sidebar.innerHTML = lessonButtons.map(([id, label], i) => `<button class="${i === 0 ? 'selected' : ''}" data-new-lesson="${id}">${label}</button>`).join('');
+  sidebar.innerHTML = lessonButtons.map(([id, label], i) =>
+    `<button class="${i === 0 ? 'selected' : ''}" data-new-lesson="${id}">${label}</button>`
+  ).join('');
   const panel = document.getElementById('lessonContent');
+
+  function videoCard(title, subtitle, id) {
+    return `<div class="phrase-video"><strong>${title}</strong><p>${subtitle}</p>${
+      id
+        ? `<iframe src="https://drive.google.com/file/d/${id}/preview" title="${title}" loading="lazy" allow="autoplay; fullscreen" allowfullscreen style="display:block;width:100%;height:300px;border:0;border-radius:10px;background:#000;margin-top:10px"></iframe><p style="margin-top:8px"><a href="https://drive.google.com/file/d/${id}/view?usp=sharing" target="_blank" rel="noopener noreferrer">Abrir video en Google Drive ↗</a></p>`
+        : '<p>Video pendiente de enlazar.</p>'
+    }</div>`;
+  }
+
   function renderLesson(id) {
     const lesson = lessonData[id];
-    sidebar.querySelectorAll('[data-new-lesson]').forEach(button => button.classList.toggle('selected', button.dataset.newLesson === id));
-    panel.innerHTML = `<span class="tag">MÓDULO ${lesson.n}</span><h3>${lesson.title}</h3><p>${lesson.desc}</p><div class="lesson-placeholder"><div><div style="font-size:2rem">▶️</div><strong>Espacio para video en LSP</strong><p>Agregar aquí un video validado de cada seña individual.</p></div></div><div class="cards" style="grid-template-columns:repeat(2,1fr)">${lesson.terms.map(term => `<div class="phrase"><strong>${term[0]}</strong><span>${term[1]}</span></div>`).join('')}</div>`;
+    if (!lesson) return;
+    sidebar.querySelectorAll('[data-new-lesson]').forEach(button =>
+      button.classList.toggle('selected', button.dataset.newLesson === id)
+    );
+    const termsHtml = lesson.terms.map((term, index) =>
+      `<article class="phrase" style="${index === 0 ? 'grid-column:1/-1;' : ''}"><strong>${term[0]}</strong><span>${term[1]}</span>${
+        term[2] ? videoCard('Seña: ' + term[0], 'Video de referencia en LSP.', term[2])
+               : '<div class="lesson-placeholder"><p>Video de esta seña pendiente de incorporar.</p></div>'
+      }</article>`
+    ).join('');
+    panel.innerHTML = `<span class="tag">MÓDULO ${lesson.n}</span><h3>${lesson.title}</h3><p>${lesson.desc}</p>${
+      lesson.videos ? lesson.videos.map(video => videoCard(video.title, video.subtitle, video.id || null)).join('') : ''
+    }${lesson.terms.length ? `<div class="cards lesson-video-grid" style="grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:15px">${termsHtml}</div>` : ''}`;
   }
-  sidebar.querySelectorAll('[data-new-lesson]').forEach(button => button.addEventListener('click', () => renderLesson(button.dataset.newLesson)));
+
+  sidebar.querySelectorAll('[data-new-lesson]').forEach(button =>
+    button.addEventListener('click', () => renderLesson(button.dataset.newLesson))
+  );
   renderLesson('seguridad');
 
   const phrases = [
@@ -77,8 +178,17 @@ document.getElementById('resetQuiz').addEventListener('click',()=>{document.quer
     ['¿Necesitas descansar?', 'Pregunta si el compañero necesita hacer una pausa.', 'descansar y necesitar', 'https://lspedia.site/', 'Buscar vocabulario en LSPedia', '1Lkg8OcTSSMqRTwQuHBfpBR6exNb95dx1']
   ];
   const phraseGrid = document.querySelector('#page-frases .phrase-grid');
-  phraseGrid.innerHTML = phrases.map(([phrase, desc, keywords, url, link, videoId]) => `<div class="phrase"><strong>${phrase}</strong><span>${desc}</span>${videoId ? `<div class="phrase-video"><p>🎬 Video de referencia</p><iframe src="https://drive.google.com/file/d/${videoId}/preview" title="Video de LSP: ${phrase}" width="100%" height="360" style="display:block;width:100%;height:clamp(320px,45vw,480px);border:0;border-radius:10px;background:#000" allow="autoplay; fullscreen" allowfullscreen loading="lazy"></iframe><p style="margin-top:10px"><a href="https://drive.google.com/file/d/${videoId}/view?usp=sharing" target="_blank" rel="noopener noreferrer">Abrir video en Google Drive ↗</a></p></div>` : `<div class="phrase-video"><p>🎬 Busca las señas relacionadas con: “${keywords}”.</p><a href="${url}" target="_blank" rel="noopener noreferrer">${link} ↗</a></div>`}</div>`).join('');
-  document.querySelector('#page-frases .phrase-note').innerHTML = '<strong>Comunicación y seguridad:</strong> estas frases ayudan a ofrecer apoyo, reconocer riesgos y acompañar a un compañero que necesita atención. En una emergencia, sigue siempre el protocolo de seguridad de la empresa. Los enlaces permiten buscar vocabulario relacionado, pero no son videos verificados de las frases completas; valida su forma natural en LSP con una persona sorda usuaria de esta lengua o un especialista.';
+  if (phraseGrid) {
+    phraseGrid.innerHTML = phrases.map(([phrase, desc, keywords, url, link, videoId]) =>
+      `<div class="phrase"><strong>${phrase}</strong><span>${desc}</span>${
+        videoId
+          ? `<div class="phrase-video"><p>🎬 Video de referencia</p><iframe src="https://drive.google.com/file/d/${videoId}/preview" title="Video de LSP: ${phrase}" width="100%" height="360" style="display:block;width:100%;height:clamp(320px,45vw,480px);border:0;border-radius:10px;background:#000" allow="autoplay; fullscreen" allowfullscreen loading="lazy"></iframe><p style="margin-top:10px"><a href="https://drive.google.com/file/d/${videoId}/view?usp=sharing" target="_blank" rel="noopener noreferrer">Abrir video en Google Drive ↗</a></p></div>`
+          : `<div class="phrase-video"><p>🎬 Busca las señas relacionadas con: “${keywords}”.</p><a href="${url}" target="_blank" rel="noopener noreferrer">${link} ↗</a></div>`
+      }</div>`
+    ).join('');
+    const note = document.querySelector('#page-frases .phrase-note');
+    if (note) note.innerHTML = '<strong>Comunicación y seguridad:</strong> estas frases ayudan a ofrecer apoyo, reconocer riesgos y acompañar a un compañero que necesita atención. En una emergencia, sigue siempre el protocolo de seguridad de la empresa. Los enlaces permiten buscar vocabulario relacionado, pero no son videos verificados de las frases completas; valida su forma natural en LSP con una persona sorda usuaria de esta lengua o un especialista.';
+  }
 })();
 </script>
 <script>
